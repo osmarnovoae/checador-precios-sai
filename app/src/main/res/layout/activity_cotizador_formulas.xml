@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".CotizadorFormulasActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/editTextNumber9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="% N"
+                    android:inputType="number" />
+
+                <EditText
+                    android:id="@+id/editTextNumber19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="% P"
+                    android:inputType="number" />
+
+                <EditText
+                    android:id="@+id/editTextNumber27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="% Ca"
+                    android:inputType="number" />
+
+                <EditText
+                    android:id="@+id/editTextNumber28"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="% Mg"
+                    android:inputType="number" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:fontFamily="sans-serif-medium"
+                android:includeFontPadding="true"
+                android:text="KILOS A COTIZAR"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editTextNumber20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="VIGORSI"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/editTextNumber16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="NITRO EXTREME"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/editTextNumber22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="TIGER XP"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/editTextNumber18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="FERTICRA RAIZ"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/editTextNumber10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="KLC"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/editTextNumber21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="K-MAG PREMIUM"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/editTextNumber15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="SILICIO GRAN"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/editTextNumber17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="MICRO ESSENTIALS"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/editTextNumber24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="BIDA"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/editTextNumber12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="POLISULFATO"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/editTextNumber13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="PROSIMICROS"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/editTextNumber14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="CAUDILLO"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/editTextNumber23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="S. AMONIO"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/editTextNumber8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="NITRO PERFECTO"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/editTextNumber11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="SOP."
+                android:inputType="number" />
+
+            <Button
+                android:id="@+id/btnCotizar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="COTIZAR" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="array_adapter_sucursales">
+        <item>TECOMAN</item>
+        <item>COLIMA</item>
+        <item>CIHUATLAN</item>
+        <item>PINO SUAREZ</item>
+        <item>CD. GUZMAN</item>
+    </string-array>
+
+    <string-array name="array_adapter_tipo_saldo">
+        <item>VENCIDO</item>
+        <item>NO VENCIDO</item>
+    </string-array>
+
+</resources>

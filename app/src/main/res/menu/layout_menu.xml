@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/cerrarSesion"
+        android:title="Cerrar sesion"
+        app:showAsAction="never"/>
+    <item android:id="@+id/vClientProd"
+        android:title="Ventas por cliente desglosado por producto"
+        android:tooltipText="ventas netas"
+        app:showAsAction="withText"/>
+    <item android:id="@+id/productosMasVendidosPorAgente"
+        android:title="Productos mas vendidos por agente"
+        android:tooltipText="productos mas vendidos por agente"
+        app:showAsAction="withText"/>
+    <item android:id="@+id/vxclase"
+        android:title="Ventas netas por almacen desglosadas pro clase"
+        android:tooltipText="ventas netas"
+        app:showAsAction="withText"/>
+    <item android:id="@+id/MenuItemSaldoClientes"
+        android:title="Consultar saldo clientes"
+        android:tooltipText="saldo clientes"
+        app:showAsAction="withText"/>
+    <item android:id="@+id/MenuItemCotizadorFormulas"
+        android:title="Cotizador Formulas Físicas"
+        android:tooltipText="cotiza formulas"
+        app:showAsAction="withText"/>
+
+
+</menu>
